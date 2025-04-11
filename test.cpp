@@ -6,5 +6,6 @@ int main(){
 	cout << "hello world!" << endl;
 	cout << "I love code" << endl;
 	cout << "I love you" << endl;
+	cout << "I like it" << endl;
 	return 0;
 }
