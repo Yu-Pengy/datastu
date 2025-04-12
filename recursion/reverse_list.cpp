@@ -59,6 +59,18 @@ struct LinkList
             cout << p->data << " ";
         }
     }
+    ListNode *Reverse(ListNode *p){
+        if(p == NULL) return NULL;
+        if(p->next == NULL) return p;
+        else{
+            ListNode *np;
+            np = Reverse(p->next);
+            head = np;
+            p->next->next = p;
+            p->next = NULL;//将结点p作为尾结点
+            return np;//返回逆置单链表的首结点
+        }
+    }
 };
 int main(){
     LinkList List1;
@@ -69,4 +81,8 @@ int main(){
     }
     List1.Print();
     List1.Invert(List1.head);
+    cout << endl;
+    ListNode *newHead = List1.Reverse(List1.head);
+    List1.head = newHead;
+    List1.Print();
 }
