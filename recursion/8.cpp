@@ -45,6 +45,6 @@ int main(){
         List1.addNode(newNode);
     }
     List1.Print();
-    removex(List1.head,5);
+    removex(List1.head,99);
     List1.Print();
 }

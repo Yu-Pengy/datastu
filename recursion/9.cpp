@@ -25,7 +25,7 @@ struct Linklist{
     }
 };
 ListNode* removex(ListNode *p,int x){
-    if(!p)return NULL;
+    if(!p)return NULL;//通过下面那句遍历了整个链表的每一个结点
     p->next = removex(p->next,x);//原来的思路是错的，把指针置空不是吧这个地址置空，所以想处理尾元素为x的情况，必须存储每个节点的前驱
     if(p->data == x){
         ListNode *next = p->next;
