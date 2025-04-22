@@ -1,7 +1,10 @@
 {
     "files.associations": {
         "utility": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "iostream": "cpp",
+        "queue": "cpp",
+        "xstring": "cpp"
     },
     "Codegeex.RepoIndex": true
 }
