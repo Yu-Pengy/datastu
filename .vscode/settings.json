@@ -4,7 +4,13 @@
         "vector": "cpp",
         "iostream": "cpp",
         "queue": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "ostream": "cpp",
+        "string": "cpp",
+        "array": "c",
+        "ranges": "c",
+        "span": "c",
+        "xutility": "c"
     },
     "Codegeex.RepoIndex": true
 }

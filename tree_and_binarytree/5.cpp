@@ -41,7 +41,7 @@ struct BTree{
                     }
                 }
                 i++;
-            }
+            } 
         }
     }
     void fpreOrder(BTNode *r){

@@ -32,31 +32,6 @@ public:
             preOrder(p->rchild);
         }
     }
-    bool iscomplete(TreeNode *p){
-        queue<TreeNode*> nqueue;
-        if(p == NULL) return true;
-        nqueue.push(p);
-        bool metend = false;
-        while(!nqueue.empty()){
-            TreeNode *curr = nqueue.front();
-            nqueue.pop();
-            if(curr->lchild == NULL){
-                metend = true;
-            }else if(metend){
-                return false;
-            }else{
-                nqueue.push(curr->lchild);
-            }
-            if(curr->rchild == NULL){
-                metend = true;
-            }else if(metend){
-                return false;
-            }else{
-                nqueue.push(curr->rchild);
-            }
-        }
-        return true;
-    }
 };
 int main()
 {
@@ -98,6 +73,4 @@ int main()
         cin >> x >> y >> z;
         i++;
     }
-    //ntree.preOrder(ntree.getRoot());
-    cout << ntree.iscomplete(ntree.getRoot()) << endl;
 }
