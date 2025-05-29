@@ -1,11 +1,7 @@
-#include <iostream>
-#include <string>
-#include <fstream>
+#include<iostream>
 using namespace std;
-int main()
-{
-    int a;
-    a = 1.0;
-    cout << a << endl;
+int main(){
+    int a, b;
+    cout << a << b << endl;
     return 0;
 }

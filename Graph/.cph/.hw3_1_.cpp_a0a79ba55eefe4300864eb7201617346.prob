@@ -1,0 +1,1 @@
+{"name":"Local: hw3_1_","url":"c:\\Users\\17702\\Desktop\\datastu\\Graph\\hw3_1_.cpp","tests":[{"id":1748186874384,"input":"4 4\n1 2\n2 3\n3 4\n4 1","output":"Yes"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\17702\\Desktop\\datastu\\Graph\\hw3_1_.cpp","group":"local","local":true}

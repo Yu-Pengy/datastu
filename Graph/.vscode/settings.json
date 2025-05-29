@@ -4,6 +4,21 @@
         "queue": "cpp",
         "algorithm": "cpp",
         "xutility": "cpp",
-        "string": "cpp"
-    }
+        "string": "cpp",
+        "iostream": "cpp"
+    },
+    "git.decorations.enabled": true,
+    "files.autoSave": "afterDelay",
+    "files.autoGuessEncoding": true,
+    "editor.cursorBlinking": "smooth",
+    "terminal.integrated.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "editor.wordWrap": "on",
+    "editor.guides.bracketPairs": false,
+    "files.simpleDialog.enable": true
 }

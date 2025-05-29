@@ -10,7 +10,8 @@
         "array": "c",
         "ranges": "c",
         "span": "c",
-        "xutility": "c"
+        "xutility": "c",
+        "sstream": "cpp"
     },
     "Codegeex.RepoIndex": true
 }
